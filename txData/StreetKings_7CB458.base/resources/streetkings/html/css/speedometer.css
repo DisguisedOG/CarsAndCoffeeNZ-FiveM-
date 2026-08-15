@@ -1,0 +1,417 @@
+/* -------------------------------------------------------------------------- */
+/* Speedometer HUD                                                             */
+/* -------------------------------------------------------------------------- */
+
+.sk-speedo-gearbox-badge {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  pointer-events: none;
+  z-index: 2;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sk-speedo-gearbox-badge.is-active {
+  display: flex;
+}
+
+.sk-speedo-digital-footer {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.sk-speedo-gearbox-badge--digital {
+  position: static;
+  transform: none;
+  padding: 0.2778vh 0.2083vw;
+  border: 0.0521vw solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.1563vw;
+  justify-content: center;
+}
+
+.sk-speedo-gearbox-badge-label {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sk-speedo-gearbox-badge-label svg {
+  width: 1.65vmin;
+  height: 1.65vmin;
+  display: block;
+}
+
+.sk-speedo-gearbox-badge-type {
+  font-family: var(--sk-font-ui);
+  font-size: 0.44rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+@keyframes sk-speedo-gear-flash {
+  0%   { transform: scale(1.35); color: var(--sk-color-spray); border-color: var(--sk-color-spray); }
+  50%  { transform: scale(1);   color: var(--sk-color-spray); border-color: var(--sk-color-spray); }
+  100% { transform: scale(1);   color: var(--sk-text-primary); border-color: rgba(255, 255, 255, 0.15); }
+}
+
+@keyframes sk-speedo-redline {
+  0%, 100% { transform: translate(0, 0); }
+  10%      { transform: translate(-0.15vw, 0.12vh); }
+  20%      { transform: translate(0.18vw, -0.10vh); }
+  30%      { transform: translate(-0.12vw, 0.15vh); }
+  40%      { transform: translate(0.16vw, -0.13vh); }
+  50%      { transform: translate(-0.18vw, 0.08vh); }
+  60%      { transform: translate(0.10vw, -0.15vh); }
+  70%      { transform: translate(-0.15vw, 0.12vh); }
+  80%      { transform: translate(0.17vw, -0.09vh); }
+  90%      { transform: translate(-0.11vw, 0.14vh); }
+}
+
+.sk-speedo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  transition: opacity 300ms ease;
+}
+
+.sk-speedo--redline {
+  animation: sk-speedo-redline 80ms linear infinite;
+}
+
+.sk-speedo--hidden {
+  opacity: 0;
+}
+
+.sk-speedo-gear {
+  font-family: var(--sk-font-ui);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sk-text-primary);
+  line-height: 1;
+  min-width: 1.3021vw;
+  text-align: center;
+  padding: 0.2778vh 0.2083vw;
+  border: 0.0521vw solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.1563vw;
+  align-self: flex-end;
+  transition: color 200ms ease, border-color 200ms ease;
+}
+
+.sk-speedo-gear--flash {
+  animation: sk-speedo-gear-flash 450ms ease forwards;
+}
+
+.sk-speedo-main {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  line-height: 1;
+}
+
+.sk-speedo-main-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}
+
+.sk-speedo-value {
+  font-family: 'Bungee', var(--sk-font-body);
+  font-size: 5rem;
+  color: var(--sk-text-primary);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.sk-speedo-unit {
+  font-family: var(--sk-font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sk-text-soft);
+  margin-bottom: 0.6rem;
+}
+
+.sk-speedo-rpm-track {
+  width: 200px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.sk-speedo-rpm-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--sk-color-spray);
+  border-radius: 2px;
+  transition: width 60ms linear, background-color 200ms ease;
+}
+
+.sk-speedo-rpm-bar[data-rpm="warm"] { background: #f97316; }
+.sk-speedo-rpm-bar[data-rpm="hot"]  {
+  background: #ff0000;
+  box-shadow: 0 0 0.4167vw rgba(255, 0, 0, 0.75), 0 0 0.8333vw rgba(255, 0, 0, 0.4);
+}
+
+.sk-speedo-nitrous-track {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  width: 200px;
+}
+
+.sk-speedo-nitrous-track.is-active {
+  display: flex;
+}
+
+.sk-speedo-nitrous-label {
+  font-family: var(--sk-font-ui);
+  font-size: 0.55rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: #38bdf8;
+  line-height: 1;
+}
+
+.sk-speedo-nitrous-meter {
+  flex: 1;
+  height: 4px;
+  background: rgba(56, 189, 248, 0.14);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.sk-speedo-nitrous-bar {
+  height: 100%;
+  width: 0%;
+  background: #38bdf8;
+  border-radius: 2px;
+  transition: width 70ms linear, box-shadow 120ms ease;
+}
+
+.sk-speedo-nitrous-track.is-boosting .sk-speedo-nitrous-bar {
+  box-shadow:
+    0 0 0.4167vw rgba(56, 189, 248, 0.95),
+    0 0 0.9375vw rgba(56, 189, 248, 0.75),
+    0 0 1.5625vw rgba(56, 189, 248, 0.45);
+}
+
+.sk-speedo-nitrous-track.is-boosting .sk-speedo-nitrous-meter {
+  box-shadow:
+    0 0 0.5208vw rgba(56, 189, 248, 0.42),
+    inset 0 0 0.4167vw rgba(56, 189, 248, 0.32);
+}
+
+.sk-speedo-odometer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 0.3519vh 0.5208vw;
+  border: 0.0521vw solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.1563vw;
+  margin-top: 4px;
+}
+
+.sk-speedo-odometer-digits {
+  font-family: var(--sk-font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--sk-color-spray);
+  text-shadow: 0 0 0.4167vw rgba(255, 209, 71, 0.4);
+  line-height: 1;
+}
+
+.sk-speedo-odometer-unit {
+  font-family: var(--sk-font-ui);
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sk-text-dim);
+  line-height: 1;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Digital / Analog variant toggle                                             */
+/* -------------------------------------------------------------------------- */
+
+.sk-speedo-digital { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.sk-speedo-analog  { display: none; flex-direction: column; align-items: center; }
+
+.sk-speedo--analog .sk-speedo-digital { display: none; }
+.sk-speedo--analog .sk-speedo-analog  { display: flex; }
+
+/* -------------------------------------------------------------------------- */
+/* Analog gauge                                                                */
+/* -------------------------------------------------------------------------- */
+
+.sk-speedo-analog-dial {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.sk-speedo-analog-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.sk-speedo-analog-rpm-track {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 4;
+  stroke-linecap: round;
+  transform: rotate(135deg);
+  transform-origin: center;
+}
+
+.sk-speedo-analog-rpm-arc {
+  fill: none;
+  stroke: var(--sk-color-spray);
+  stroke-width: 4;
+  stroke-linecap: round;
+  transform: rotate(135deg);
+  transform-origin: center;
+  transition: stroke-dasharray 60ms linear, stroke 200ms ease;
+}
+
+.sk-speedo-analog-rpm-arc[data-rpm="warm"] { stroke: #f97316; }
+.sk-speedo-analog-rpm-arc[data-rpm="hot"]  {
+  stroke: #ff0000;
+  filter: drop-shadow(0 0 4px rgba(255, 0, 0, 0.75));
+}
+
+.sk-speedo-analog-nitrous-track {
+  display: none;
+  fill: none;
+  stroke: rgba(56, 189, 248, 0.14);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transform: rotate(135deg);
+  transform-origin: center;
+}
+
+.sk-speedo-analog-nitrous-arc {
+  display: none;
+  fill: none;
+  stroke: #38bdf8;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transform: rotate(135deg);
+  transform-origin: center;
+  transition: stroke-dasharray 70ms linear, filter 120ms ease;
+}
+
+.sk-speedo-analog-nitrous-track.is-active,
+.sk-speedo-analog-nitrous-arc.is-active {
+  display: block;
+}
+
+.sk-speedo-analog-nitrous-arc.is-boosting {
+  filter:
+    drop-shadow(0 0 4px rgba(56, 189, 248, 1))
+    drop-shadow(0 0 10px rgba(56, 189, 248, 0.75))
+    drop-shadow(0 0 18px rgba(56, 189, 248, 0.45));
+}
+
+.sk-speedo-analog-tick-major {
+  stroke: rgba(255, 255, 255, 0.6);
+  stroke-width: 1.5;
+}
+
+.sk-speedo-analog-tick-minor {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 0.75;
+}
+
+.sk-speedo-analog-label {
+  fill: var(--sk-text-soft);
+  font-family: var(--sk-font-ui);
+  font-size: 8px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.sk-speedo-analog-needle {
+  stroke: var(--sk-color-spray);
+  stroke-width: 2;
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 3px rgba(255, 209, 71, 0.5));
+  transform-origin: 100px 100px;
+  transition: transform 60ms linear;
+  will-change: transform;
+}
+
+.sk-speedo-analog-hub {
+  fill: var(--sk-color-spray);
+  filter: drop-shadow(0 0 3px rgba(255, 209, 71, 0.4));
+}
+
+.sk-speedo-analog-center {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+
+.sk-speedo-analog-value {
+  font-family: 'Bungee', var(--sk-font-body);
+  font-size: 1.8rem;
+  color: var(--sk-text-primary);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.sk-speedo-analog-unit {
+  font-family: var(--sk-font-ui);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sk-text-soft);
+  margin-top: 2px;
+}
+
+.sk-speedo-analog-footer {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.sk-speedo-analog-footer .sk-speedo-gear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sk-speedo-analog-footer .sk-speedo-odometer {
+  width: auto;
+  margin-top: 0;
+}
