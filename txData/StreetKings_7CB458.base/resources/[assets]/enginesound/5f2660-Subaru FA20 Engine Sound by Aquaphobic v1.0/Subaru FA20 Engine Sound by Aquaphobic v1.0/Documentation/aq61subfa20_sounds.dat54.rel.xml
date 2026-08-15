@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="23961641" />
+ <ContainerPaths>
+  <Item>RESIDENT\VEHICLES</Item>
+  <Item>0</Item>
+  <Item>DLC_aq61subfa20\aq61subfa20</Item>
+  <Item>DLC_aq61subfa20\aq61subfa20_npc</Item>
+ </ContainerPaths>
+ <Items>
+  <Item type="GranularSound">
+   <Name>aq61subfa20_engine_accel</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Pitch value="0" />
+    <Category>hash_F7C35252</Category>
+    <LPFCutoff value="20000" />
+    <VolumeCurveScale value="150" />
+    <VolumeCurvePlateau value="12" />
+    <Unk20 value="0" />
+    <Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Channel0>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Channel0>
+   <Channel1>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Channel1>
+   <Channel2>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Channel2>
+   <Channel3>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Channel3>
+   <Channel4>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Channel4>
+   <Channel5>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Channel5>
+   <ChannelSettings0>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings0>
+   <ChannelSettings1>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings1>
+   <ChannelSettings2>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings2>
+   <ChannelSettings3>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings3>
+   <ChannelSettings4>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings4>
+   <ChannelSettings5>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings5>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <ChannelVolume0 value="0" />
+   <ChannelVolume1 value="0" />
+   <ChannelVolume2 value="-200" />
+   <ChannelVolume3 value="300" />
+   <ChannelVolume4 value="-800" />
+   <ChannelVolume5 value="0" />
+   <ParentSound />
+   <GranularClock>
+    10, 63.75
+    9.17, 9.17
+   </GranularClock>
+  </Item>
+  <Item type="GranularSound">
+   <Name>aq61subfa20_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x01E18011" />
+    <Flags2 value="0x9555AAAA" />
+    <Pitch value="0" />
+    <Category>hash_F7C35252</Category>
+    <LPFCutoff value="20000" />
+    <VolumeCurveScale value="150" />
+    <VolumeCurvePlateau value="12" />
+    <Unk20 value="0" />
+    <Unk21 value="6" />
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Channel0>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Channel0>
+   <Channel1>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Channel1>
+   <Channel2>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Channel2>
+   <Channel3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Channel3>
+   <Channel4>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Channel4>
+   <Channel5>
+    <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Channel5>
+   <ChannelSettings0>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings0>
+   <ChannelSettings1>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings1>
+   <ChannelSettings2>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings2>
+   <ChannelSettings3>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings3>
+   <ChannelSettings4>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings4>
+   <ChannelSettings5>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </ChannelSettings5>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <ChannelVolume0 value="0" />
+   <ChannelVolume1 value="0" />
+   <ChannelVolume2 value="-200" />
+   <ChannelVolume3 value="600" />
+   <ChannelVolume4 value="0" />
+   <ChannelVolume5 value="400" />
+   <ParentSound>aq61subfa20_engine_accel</ParentSound>
+   <GranularClock>
+    10, 63.75
+    9.17, 9.17
+   </GranularClock>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>aq61subfa20_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x01F58014" />
+    <Volume value="2400" />
+    <Pitch value="-1" />
+    <Category>hash_F7C35252</Category>
+    <LPFCutoff value="8000" />
+    <HPFCutoff value="0" />
+    <VolumeCurve>hash_3BD35057</VolumeCurve>
+    <VolumeCurveScale value="10000" />
+    <VolumeCurvePlateau value="12" />
+    <Unk20 value="0" />
+    <Unk21 value="6" />
+   </Header>
+   <ChannelID value="1" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_gear_change_int</Name>
+   <Header>
+    <Flags value="0x00000014" />
+    <Volume value="800" />
+    <Pitch value="150" />
+   </Header>
+   <ChildSound>aq61subfa20_gear_change</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound />
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_gear_change</Item>
+    <Item />
+   </ChildSounds>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>aq61subfa20_gear_change</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="0" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_87C504B7</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>aq61subfa20_transmission_vb</Name>
+   <Header>
+    <Flags value="0x0020A014" />
+    <Volume value="6000" />
+    <Pitch value="-1351" />
+    <ReleaseTime value="30" />
+    <Category>hash_F7C35252</Category>
+    <VolumeCurveScale value="1500" />
+   </Header>
+   <ChildSound>aq61subfa20_transmission_pts</ChildSound>
+   <Variables>
+    <Item>
+     <Name>hash_BE74155D</Name>
+     <Value value="5" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5B924509</Name>
+     <Value value="0.5" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_5C31BE9C</Name>
+     <Value value="0" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_C23BF9F9</Name>
+     <Value value="2.5" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_30FBBB42</Name>
+     <Value value="0.5" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_4DAC2C57</Name>
+     <Value value="3" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>aq61subfa20_transmission_pts</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="0" />
+   </Header>
+   <ChildSound>aq61subfa20_transmission_whine</ChildSound>
+   <ParameterTransforms>
+    <Item>
+     <InputParameter>hash_5B924509</InputParameter>
+     <InputRangeMin value="0" />
+     <InputRangeMax value="1" />
+     <Transforms>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="0" />
+       <TransformTypeParameter />
+       <OutputRangeMin value="0.06309573" />
+       <OutputRangeMax value="10" />
+       <Vectors>
+        0.2, 0
+        0.5266666, 0.5066667
+        0.75, 0.7133334
+        1, 0.5966667
+       </Vectors>
+      </Item>
+     </Transforms>
+    </Item>
+   </ParameterTransforms>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>aq61subfa20_transmission_whine</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="0" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_B44B4252</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_E2DC3BD9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_64B66449</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>aq61subfa20_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <LoopCount value="-1" />
+   <LoopCountVariance value="0" />
+   <LoopPoint value="0" />
+   <ChildSound>dlc_aq61subfa20_horn2_loop</ChildSound>
+   <LoopCountVariable />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>aq61subfa20_horn2_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>aq61subfa20_horn2_loop</ChildSound>
+   <StopSound>dlc_aq61subfa20_horn2_tail</StopSound>
+   <FinishedSound />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_horn2</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <ChildSound>aq61subfa20_horn2_onstop</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound />
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_horn2_onstop</Item>
+    <Item />
+   </ChildSounds>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_npc_horn2_loop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>hash_E2DC3BD9</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_npc_horn2_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>hash_64B66449</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="LoopingSound">
+   <Name>aq61subfa20_horn2_npc_loop</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <LoopCount value="-1" />
+   <LoopCountVariance value="0" />
+   <LoopPoint value="0" />
+   <ChildSound>dlc_aq61subfa20_npc_horn2_loop</ChildSound>
+   <LoopCountVariable />
+  </Item>
+  <Item type="OnStopSound">
+   <Name>aq61subfa20_horn2_npc_onstop</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>aq61subfa20_horn2_npc_loop</ChildSound>
+   <StopSound>dlc_aq61subfa20_npc_horn2_tail</StopSound>
+   <FinishedSound />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_horn2_npc</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_horns_loud</Category>
+   </Header>
+   <ChildSound>aq61subfa20_horn2_npc_onstop</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound />
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_horn2_npc_onstop</Item>
+    <Item />
+   </ChildSounds>
+  </Item>
+  <Item type="SoundHashList">
+   <Name>horn_list_aq61subfa20</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <SoundHashes>
+    <Item>aq61subfa20_horn2</Item>
+   </SoundHashes>
+  </Item>
+  <Item type="SoundHashList">
+   <Name>horn_list_aq61subfa20_npc</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <SoundHashes>
+    <Item>aq61subfa20_horn2_npc</Item>
+   </SoundHashes>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>aq61subfa20_startup_sequence</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>hash_7DA2DB72</ChildSound>
+   <ParameterTransforms>
+    <Item>
+     <InputParameter>hash_A69EF7A1</InputParameter>
+     <InputRangeMin value="0" />
+     <InputRangeMax value="5" />
+     <Transforms>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="7" />
+       <TransformTypeParameter>hash_0EB27990</TransformTypeParameter>
+       <OutputRangeMin value="0" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0
+        0.03426933, 1
+        0.1314227, 1
+        0.3676034, 0
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="7" />
+       <TransformTypeParameter>hash_CEB98BEB</TransformTypeParameter>
+       <OutputRangeMin value="0" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0.2
+        0.06475534, 0.6666666
+        0.1776034, 0.3928
+        0.4466673, 0.2
+       </Vectors>
+      </Item>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="7" />
+       <TransformTypeParameter>hash_91DF7F97</TransformTypeParameter>
+       <OutputRangeMin value="0" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0
+        0.0009367257, 1
+        0.5976034, 1
+        0.6833333, 0
+       </Vectors>
+      </Item>
+     </Transforms>
+    </Item>
+   </ParameterTransforms>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>aq61subfa20_synth_veh_idle_sub</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Volume value="-400" />
+    <Pitch value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <SynthSound>schlagen_sub_idle</SynthSound>
+   <SynthPreset />
+   <PlaybackTimeLimit value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <EnvironmentSounds>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </EnvironmentSounds>
+   <ExposedVariables>
+    <Item>
+     <VariableName>hash_ABD2A3D6</VariableName>
+     <ParameterName />
+     <Value value="13" />
+    </Item>
+    <Item>
+     <VariableName>hash_AAED9868</VariableName>
+     <ParameterName />
+     <Value value="61" />
+    </Item>
+    <Item>
+     <VariableName>hash_4E132C3B</VariableName>
+     <ParameterName />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <VariableName>hash_18B20B91</VariableName>
+     <ParameterName />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <VariableName>hash_E07986E5</VariableName>
+     <ParameterName />
+     <Value value="3.5" />
+    </Item>
+    <Item>
+     <VariableName>hash_52E84522</VariableName>
+     <ParameterName />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <VariableName>hash_8115C581</VariableName>
+     <ParameterName />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <VariableName>hash_24E7B0B4</VariableName>
+     <ParameterName />
+     <Value value="10" />
+    </Item>
+    <Item>
+     <VariableName>hash_D250E3B7</VariableName>
+     <ParameterName />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <VariableName>hash_15857327</VariableName>
+     <ParameterName />
+     <Value value="250" />
+    </Item>
+    <Item>
+     <VariableName>hash_39B29F61</VariableName>
+     <ParameterName />
+     <Value value="0.5" />
+    </Item>
+   </ExposedVariables>
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>aq61subfa20_synth_veh_idle_sub_supercharged</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Volume value="-900" />
+    <Pitch value="1200" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <SynthSound>tampa_synth_sub_idle_supercharged</SynthSound>
+   <SynthPreset />
+   <PlaybackTimeLimit value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <EnvironmentSounds>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </EnvironmentSounds>
+   <ExposedVariables>
+    <Item>
+     <VariableName>hash_ABD2A3D6</VariableName>
+     <ParameterName />
+     <Value value="9" />
+    </Item>
+    <Item>
+     <VariableName>hash_AAED9868</VariableName>
+     <ParameterName />
+     <Value value="35" />
+    </Item>
+    <Item>
+     <VariableName>hash_4E132C3B</VariableName>
+     <ParameterName />
+     <Value value="0.2" />
+    </Item>
+    <Item>
+     <VariableName>hash_24E7B0B4</VariableName>
+     <ParameterName />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <VariableName>hash_7E8B1429</VariableName>
+     <ParameterName />
+     <Value value="0.4" />
+    </Item>
+    <Item>
+     <VariableName>hash_667DE3B3</VariableName>
+     <ParameterName />
+     <Value value="0.3" />
+    </Item>
+    <Item>
+     <VariableName>hash_764797A1</VariableName>
+     <ParameterName />
+     <Value value="16" />
+    </Item>
+    <Item>
+     <VariableName>hash_C32CC134</VariableName>
+     <ParameterName />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <VariableName>hash_1DC582D6</VariableName>
+     <ParameterName />
+     <Value value="0.22" />
+    </Item>
+    <Item>
+     <VariableName>hash_3F8AD907</VariableName>
+     <ParameterName />
+     <Value value="1.1" />
+    </Item>
+    <Item>
+     <VariableName>hash_56D36C02</VariableName>
+     <ParameterName>hash_51384371</ParameterName>
+     <Value value="1" />
+    </Item>
+   </ExposedVariables>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_dump_valve</Name>
+   <Header>
+    <Flags value="0x00000100" />
+    <PreDelay value="100" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_B29DAB97</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_waste_gate</Name>
+   <Header>
+    <Flags value="0x00000020" />
+    <PitchVariance value="50" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_FF5968E0</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_dump_valve_upgraded</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>aq61subfa20_dump_valve_surge_vb</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>hash_6E002307</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_dump_valve_surge_vb</Item>
+    <Item>hash_6E002307</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="VariableBlockSound">
+   <Name>aq61subfa20_dump_valve_surge_vb</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>aq61subfa20_dump_valve_upgraded_mt</ChildSound>
+   <Variables>
+    <Item>
+     <Name>hash_CF28C7B3</Name>
+     <Value value="0" />
+     <ValueVariance value="0" />
+     <VariableType value="1" />
+    </Item>
+    <Item>
+     <Name>hash_96499EA2</Name>
+     <Value value="0" />
+     <ValueVariance value="0" />
+     <VariableType value="0" />
+    </Item>
+   </Variables>
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>aq61subfa20_dump_valve_upgraded_mt</Name>
+   <Header>
+    <Flags value="0x00008035" />
+    <Flags2 value="0xAAA0AAAA" />
+    <Volume value="500" />
+    <Pitch value="60" />
+    <PitchVariance value="20" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <ChildSounds>
+    <Item>aq61subfa20_dump_valve_surge_pts</Item>
+    <Item>aq61subfa20_dump_valve_hiss_pts</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>aq61subfa20_dump_valve_surge_pts</Name>
+   <Header>
+    <Flags value="0x00000004" />
+    <Volume value="-2001" />
+   </Header>
+   <ChildSound>aq61subfa20_dump_valve_surge_env</ChildSound>
+   <ParameterTransforms>
+    <Item>
+     <InputParameter>hash_CF28C7B3</InputParameter>
+     <InputRangeMin value="0" />
+     <InputRangeMax value="1" />
+     <Transforms>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="7" />
+       <TransformTypeParameter>hash_96499EA2</TransformTypeParameter>
+       <OutputRangeMin value="0" />
+       <OutputRangeMax value="0.8" />
+       <Vectors>
+        0, 0
+        0.56, 0.6316667
+        0.8259363, 0.7637778
+        1, 1
+       </Vectors>
+      </Item>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="1" />
+       <TransformTypeParameter />
+       <OutputRangeMin value="0.7071068" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0.15
+        1, 1
+       </Vectors>
+      </Item>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="0" />
+       <TransformTypeParameter />
+       <OutputRangeMin value="1E-05" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0.83
+        0.5992696, 0.9833333
+        1, 1
+       </Vectors>
+      </Item>
+     </Transforms>
+    </Item>
+   </ParameterTransforms>
+  </Item>
+  <Item type="EnvelopeSound">
+   <Name>aq61subfa20_dump_valve_surge_env</Name>
+   <Header>
+    <Flags value="0x0000003D" />
+    <Flags2 value="0xAAA1AAAA" />
+    <Volume value="0" />
+    <VolumeVariance value="200" />
+    <Pitch value="100" />
+    <PitchVariance value="50" />
+   </Header>
+   <Attack value="0" />
+   <AttackVariance value="0" />
+   <Decay value="0" />
+   <DecayVariance value="0" />
+   <Sustain value="100" />
+   <SustainVariance value="0" />
+   <Hold value="800" />
+   <HoldVariance value="0" />
+   <Release value="500" />
+   <ReleaseVariance value="0" />
+   <AttackCurve>hash_0D0E6F19</AttackCurve>
+   <DecayCurve>hash_94AE4ADD</DecayCurve>
+   <ReleaseCurve>hash_519B71B1</ReleaseCurve>
+   <AttackParameter />
+   <DecayParameter />
+   <SustainParameter />
+   <HoldParameter>hash_96499EA2</HoldParameter>
+   <ReleaseParameter />
+   <ChildSound>dlc_aq61subfa20_aq61subfa20_waste_gate</ChildSound>
+   <Mode value="0" />
+   <OutputVariable />
+   <OutputRangeMin value="-100" />
+   <OutputRangeMax value="0" />
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>aq61subfa20_dump_valve_hiss_pts</Name>
+   <Header>
+    <Flags value="0x00000034" />
+    <Volume value="200" />
+    <Pitch value="100" />
+    <PitchVariance value="50" />
+   </Header>
+   <ChildSound>dlc_aq61subfa20_aq61subfa20_dump_valve</ChildSound>
+   <ParameterTransforms>
+    <Item>
+     <InputParameter>hash_CF28C7B3</InputParameter>
+     <InputRangeMin value="0" />
+     <InputRangeMax value="1" />
+     <Transforms>
+      <Item>
+       <SmoothRate value="-1" />
+       <TransformType value="0" />
+       <TransformTypeParameter />
+       <OutputRangeMin value="1E-05" />
+       <OutputRangeMax value="1" />
+       <Vectors>
+        0, 0
+        0.246729, 0.3671111
+        0.5526, 0.6366577
+        1, 0.9
+       </Vectors>
+      </Item>
+     </Transforms>
+    </Item>
+   </ParameterTransforms>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_start_up_exterior</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_9D64B840</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_start_up_interior_left</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Pan value="307" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_4934CB84</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_start_up_interior_right</Name>
+   <Header>
+    <Flags value="0x00000040" />
+    <Pan value="53" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_60BE07BB</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="MultitrackSound">
+   <Name>aq61subfa20_startup_interior_stereo_mt</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA0AAAA" />
+   </Header>
+   <ChildSounds>
+    <Item>dlc_aq61subfa20_aq61subfa20_start_up_interior_left</Item>
+    <Item>dlc_aq61subfa20_aq61subfa20_start_up_interior_right</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="IfSound">
+   <Name>aq61subfa20_startup_if</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <TrueSound>dlc_aq61subfa20_aq61subfa20_start_up_exterior</TrueSound>
+   <FalseSound>aq61subfa20_startup_interior_stereo_mt</FalseSound>
+   <ConditionVariable>hash_378A1D92</ConditionVariable>
+   <ConditionType value="4" />
+   <ConditionValue value="0" />
+   <IfParameterHash1 />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_startup</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="3000" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ChildSound>aq61subfa20_startup_if</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>null_sound</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_startup_if</Item>
+    <Item>null_sound</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_01</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+	<Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_02</Name>
+	<Header>
+	 <Flags value="0x00000000" />
+	</Header>
+	<ContainerName>aq61subfa20_npc/aq61subfa20_npc</ContainerName>
+	<FileName>vehicle_extras_lo_2_limiter_pop_02</FileName>
+	<WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_03</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_04</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_05</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_05</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_06</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_07</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20_npc</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_07</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+    <Name>aq61subfa20_randomnpcpops</Name>
+    <Header>
+      <Flags value="0x00000000" />
+    </Header>
+    <HistoryIndex value="0" />
+    <HistorySpace />
+    <Variations>
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_07" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_06" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_05" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_04" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_03" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_02" value="1" />
+      <Item name="dlc_aq61subfa20_aq61subfa20_npc_vehicle_extras_lo_2_limiter_pop_01" value="1" />
+    </Variations>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_01</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_01</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_02</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_02</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_03</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_03</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_04</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_04</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_05</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_05</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_06</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_06</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_07</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>vehicle_extras_lo_2_limiter_pop_07</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>aq61subfa20_antilag_pops_rnd</Name>
+    <Header>
+      <Flags value="0x00000000" />
+    </Header>
+    <HistoryIndex value="0" />
+    <HistorySpace />
+   <Variations>
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_07" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_06" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_05" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_04" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_03" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_02" value="1" />
+    <Item name="dlc_aq61subfa20_aq61subfa20_vehicle_extras_lo_2_limiter_pop_01" value="1" />
+   </Variations>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_antilag_pops</Name>
+   <Header>
+    <Flags value="0x00008010" />
+    <Pitch value="0" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <ChildSound>aq61subfa20_antilag_pops_rnd</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>aq61subfa20_randomnpcpops</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_antilag_pops_rnd</Item>
+    <Item>aq61subfa20_randomnpcpops</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_shut_down</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Volume value="100" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_3B393DEA</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_door_open</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_08B26E99</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_door_close</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_0C892982</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_door_open</Name>
+   <Header>
+    <Flags value="0x00008020" />
+    <PitchVariance value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <ChildSound>dlc_aq61subfa20_aq61subfa20_door_open</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>hash_6189B119</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>dlc_aq61subfa20_aq61subfa20_door_open</Item>
+    <Item>hash_6189B119</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_door_close</Name>
+   <Header>
+    <Flags value="0x00008024" />
+    <Volume value="400" />
+    <PitchVariance value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <ChildSound>dlc_aq61subfa20_aq61subfa20_door_close</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>hash_57F784EE</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>dlc_aq61subfa20_aq61subfa20_door_close</Item>
+    <Item>hash_57F784EE</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_ignition</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ChildSound>aq61subfa20_ignition_switch</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound>hash_26DE38C2</FallBackSound>
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_ignition_switch</Item>
+    <Item>hash_26DE38C2</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="OnStopSound">
+   <Name>aq61subfa20_ignition_switch</Name>
+   <Header>
+    <Flags value="0x00008014" />
+    <Volume value="100" />
+    <Pitch value="-1" />
+    <Category>vehicles_extras_loud</Category>
+   </Header>
+   <ChildSound>dlc_aq61subfa20_aq61subfa20_ignition_start</ChildSound>
+   <StopSound>dlc_aq61subfa20_aq61subfa20_ignition_tail</StopSound>
+   <FinishedSound />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_ignition_start</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_889932B3</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>dlc_aq61subfa20_aq61subfa20_ignition_tail</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_aq61subfa20/aq61subfa20</ContainerName>
+   <FileName>hash_6FEE2833</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>aq61subfa20_synth_shutdown_beep_01</Name>
+   <Header>
+    <Flags value="0x00000001" />
+    <Flags2 value="0xAAA8AAAA" />
+   </Header>
+   <SynthSound>hash_A6C12C2F</SynthSound>
+   <SynthPreset />
+   <PlaybackTimeLimit value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <EnvironmentSounds>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </EnvironmentSounds>
+   <ExposedVariables />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>aq61subfa20_synth_shutdown_beep_02</Name>
+   <Header>
+    <Flags value="0x00000101" />
+    <Flags2 value="0xAAA8AAAA" />
+    <PreDelay value="50" />
+   </Header>
+   <SynthSound>hash_A6C12C2F</SynthSound>
+   <SynthPreset />
+   <PlaybackTimeLimit value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <EnvironmentSounds>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </EnvironmentSounds>
+   <ExposedVariables />
+  </Item>
+  <Item type="SequentialOverlapSound">
+   <Name>aq61subfa20_shutdown_beeps_ext</Name>
+   <Header>
+    <Flags value="0x18010011" />
+    <Flags2 value="0xA004AAAA" />
+    <Pitch value="500" />
+    <LPFCutoff value="15000" />
+    <Unk22 value="100" />
+    <Unk23 value="40" />
+   </Header>
+   <DelayTime value="70" />
+   <DelayTimeVariable />
+   <SequenceDirection />
+   <ChildSounds>
+    <Item>aq61subfa20_synth_shutdown_beep_01</Item>
+    <Item>aq61subfa20_synth_shutdown_beep_02</Item>
+   </ChildSounds>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>aq61subfa20_shutdown_beeps</Name>
+   <Header>
+    <Flags value="0x00008104" />
+    <Volume value="-1000" />
+    <PreDelay value="480" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ChildSound>aq61subfa20_shutdown_beeps_ext</ChildSound>
+   <LastPlayTime value="0" />
+   <FallBackSound />
+   <MinRepeatTime value="0" />
+   <Variables />
+   <ChildSounds>
+    <Item>aq61subfa20_shutdown_beeps_ext</Item>
+    <Item />
+   </ChildSounds>
+  </Item>
+ </Items>
+</Dat54>

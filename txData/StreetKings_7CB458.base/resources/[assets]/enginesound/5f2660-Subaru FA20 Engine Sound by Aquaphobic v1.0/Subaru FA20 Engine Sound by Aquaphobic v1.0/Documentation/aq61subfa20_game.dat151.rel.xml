@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat151>
+ <Version value="23982542" />
+ <Items>
+  <Item type="Vehicle" ntOffset="362424">
+   <Name>aq61subfa20</Name>
+   <Flags value="0x91405A69" />
+   <Engine>aq61subfa20_engine</Engine>
+   <EngineGranular>aq61subfa20_granular_engine</EngineGranular>
+   <Horns>horn_list_aq61subfa20</Horns>
+   <DoorOpen>aq61subfa20_door_open</DoorOpen>
+   <DoorClose>aq61subfa20_door_close</DoorClose>
+   <TrunkOpen>hash_85EBAC44</TrunkOpen>
+   <TrunkClose>hash_50DB730D</TrunkClose>
+   <Unk08>null_sound</Unk08>
+   <Unk09 value="0.5" />
+   <SuspensionUp>hash_7CEDC837</SuspensionUp>
+   <SuspensionDown>hash_4AEF38F3</SuspensionDown>
+   <SuspensionUpFrequency value="0.1" />
+   <SuspensionDownFrequency value="1" />
+   <Collision>hash_00C2FB47</Collision>
+   <Unk15 value="0" />
+   <Unk16 value="0" />
+   <Unk17 value="0" />
+   <ScannerParams>infernus_scanner_params</ScannerParams>
+   <JumpLandIntact>hash_A5EB71C0</JumpLandIntact>
+   <JumpLandLoose>hash_1AF1FCAC</JumpLandLoose>
+   <Unk21 value="31" />
+   <Unk22 value="36" />
+   <RadioFlags value="0x10030002" />
+   <IndicatorOn>hash_D4314DE2</IndicatorOn>
+   <IndicatorOff>hash_A683DC21</IndicatorOff>
+   <Handbrake>hash_F2B35109</Handbrake>
+   <Unk27 value="1" />
+   <Unk28 value="3" />
+   <ParkingTones>hash_674E1F4D</ParkingTones>
+   <Unk29>hash_55FC0070</Unk29>
+   <Unk30>hash_795E90E6</Unk30>
+   <Unk31>hash_795E90E6</Unk31>
+   <Fire>hash_2FF627AC</Fire>
+   <StartupSequence>nightblade_startup_sequence</StartupSequence>
+   <Unk34>null_sound</Unk34>
+   <Unk35>hash_F52E6D86</Unk35>
+   <Unk36>hash_F52E6D86</Unk36>
+   <Unk37 value="6" />
+   <Unk38 value="3" />
+   <Unk39 />
+   <Unk40 value="0" />
+   <Sirens />
+   <Unk42 value="0" />
+   <Unk43 value="0" />
+   <Unk44 value="0" />
+   <Unk45>hash_0C3F6AD5</Unk45>
+   <Unk46>hash_359E05CB</Unk46>
+   <ForkSounds />
+   <TurretSounds />
+   <Unk49 value="8" />
+   <ScoopSounds />
+   <TowArmSounds />
+   <Unk52 value="0" />
+   <ElectricEngine />
+   <Unk54 value="0" />
+   <ReverseWarning>null_sound</ReverseWarning>
+   <EngineHealth value="3" />
+   <VehicleMaster>hash_FB3ECEFB</VehicleMaster>
+   <ShutdownBeep>null_sound</ShutdownBeep>
+   <Unk59 value="1" />
+   <Unk60 value="0" />
+   <Unk61 value="1" />
+   <Unk62 value="0" />
+   <Unk63>null_sound</Unk63>
+   <Unk64 value="0" />
+   <Unk65 value="0" />
+   <Unk66 value="0" />
+   <ConvertibleRoof>hash_536F6CAC</ConvertibleRoof>
+   <Unk68>hash_860D5015</Unk68>
+   <InteriorTones>hash_7C9B8D8C</InteriorTones>
+   <Unk70 value="0" />
+   <Unk71>null_sound</Unk71>
+   <Unk72>null_sound</Unk72>
+  </Item>
+  <Item type="VehicleEngine" ntOffset="362431">
+   <Name>aq61subfa20_engine</Name>
+   <MasterVolume value="200" />
+   <EngineLowVolume value="-400" />
+   <EngineHighVolume value="800" />
+   <EngineNPCVolume value="1600" />
+   <EngineLow>hash_00D0A5BA</EngineLow>
+   <EngineHigh>hash_1D19CCAE</EngineHigh>
+   <ExhaustLow>hash_0E4C254B</ExhaustLow>
+   <ExhaustHigh>hash_330B3159</ExhaustHigh>
+   <RevsOff>hash_F2671EE2</RevsOff>
+   <Unk09 value="-1200" />
+   <Unk10 value="1400" />
+   <EngineIdleLoop>hash_4685572C</EngineIdleLoop>
+   <ExhaustIdleLoop>hash_5ABCA177</ExhaustIdleLoop>
+   <Unk13 value="-800" />
+   <Unk14 value="2000" />
+   <AirIntake>calico_air_intake_upgraded</AirIntake>
+   <Unk16 value="-800" />
+   <Unk17 value="0" />
+   <Turbo>null_sound</Turbo>
+   <EngineLowPitch value="-600" />
+   <EngineHighPitch value="600" />
+   <DumpValve>null_sound</DumpValve>
+   <Unk22 value="100" />
+   <Unk23 value="100" />
+   <Transmission>nero2_transmission</Transmission>
+   <TransmissionPitchMin value="0" />
+   <TransmissionPitchMax value="2400" />
+   <TransmissionVolume value="1200" />
+   <Ignition>aq61subfa20_ignition</Ignition>
+   <ShutDown>dlc_aq61subfa20_aq61subfa20_shut_down</ShutDown>
+   <EngineCoolingFan>null_sound</EngineCoolingFan>
+   <ExhaustPops>null_sound</ExhaustPops>
+   <DistantStart>hash_46A99015</DistantStart>
+   <Unk33 value="-300" />
+   <GearStickVolume value="-1200" />
+   <StartupMaster>aq61subfa20_startup</StartupMaster>
+   <EngineSubmix />
+   <EngineSubmixPreset />
+   <ExhaustSubmix />
+   <ExhaustSubmixPreset />
+   <Unk40>hash_490413A6</Unk40>
+   <Unk41>hash_58337F32</Unk41>
+   <Unk42 value="700" />
+   <GearShiftInteriorUpgraded>rt3000_gear_change_upgraded_int</GearShiftInteriorUpgraded>
+   <GearShiftExteriorUpgraded>rt3000_gear_change_upgraded_ext</GearShiftExteriorUpgraded>
+   <Unk45 value="0" />
+   <Unk46 value="0" />
+   <Unk47 value="0" />
+   <Unk48 value="0" />
+   <Unk49 value="0" />
+   <Unk50 value="0" />
+   <DumpValveUpgraded>aq61subfa20_dump_valve_upgraded</DumpValveUpgraded>
+   <DumpValveUpgradedVolume value="3000" />
+   <TransmissionUpgraded>rt3000_transmission_vb</TransmissionUpgraded>
+   <TurboUpgraded>calico_veh_synth_turbo</TurboUpgraded>
+   <AirIntakeUpgraded>calico_air_intake_upgraded</AirIntakeUpgraded>
+   <ExhaustPopsUpgraded>null_sound</ExhaustPopsUpgraded>
+  </Item>
+  <Item type="VehicleEngineGranular" ntOffset="362445">
+   <Name>aq61subfa20_granular_engine</Name>
+   <Flags value="0xAAAAA955" />
+   <MasterVolume value="900" />
+   <EngineAccel>aq61subfa20_engine_accel</EngineAccel>
+   <ExhaustAccel>aq61subfa20_exhaust_accel</ExhaustAccel>
+   <Unk04 value="0" />
+   <Unk05 value="0" />
+   <Unk06 value="0" />
+   <Unk07 value="0" />
+   <Unk08 value="0" />
+   <Unk09 value="0" />
+   <Unk10 value="0" />
+   <Unk11 value="0" />
+   <Unk12 value="0" />
+   <EngineVolume value="400" />
+   <ExhaustVolume value="800" />
+   <EngineIdleVolume value="-100" />
+   <ExhaustIdleVolume value="-100" />
+   <Unk17 value="300" />
+   <Unk18 value="100" />
+   <EngineAccelVolume value="0" />
+   <ExhaustAccelVolume value="100" />
+   <Unk21 value="15" />
+   <Unk22 value="0.1" />
+   <Unk23 value="0.1" />
+   <Unk24 value="0.05" />
+   <Unk25 value="0.1" />
+   <Unk26 value="0.05" />
+   <Unk27 value="0" />
+   <Unk28 value="0.2" />
+   <Unk29 value="0" />
+   <Unk30 value="0" />
+   <EngineSubmix>toros_engine_submix</EngineSubmix>
+   <EngineSubmixPreset>toros_engine_submix_preset</EngineSubmixPreset>
+   <ExhaustSubmix>elegy_exhaust_submix</ExhaustSubmix>
+   <ExhaustSubmixPreset>elegy_exhaust_submix_preset</ExhaustSubmixPreset>
+   <EngineAccelNPC>aq61subfa20_engine_accel_npc</EngineAccelNPC>
+   <ExhaustAccelNPC>aq61subfa20_exhaust_accel</ExhaustAccelNPC>
+   <LimiterPops>aq61subfa20_limiter_pops</LimiterPops>
+   <Unk38 value="0" />
+   <Unk39 value="0" />
+   <Unk40>hash_490413A6</Unk40>
+   <Unk41>hash_58337F32</Unk41>
+   <Unk42 value="600" />
+   <Unk43 value="5" />
+   <Unk44 value="2" />
+   <IdleSub>sultanrs_veh_synth_sub_idle</IdleSub>
+   <Unk46 value="0" />
+   <Unk47 value="0" />
+   <Unk48 value="0" />
+   <Unk49 value="0" />
+   <Unk50 value="0" />
+   <Unk51 value="0" />
+   <EngineDamage>hash_B3BAE87C</EngineDamage>
+   <LimiterPopsUpgraded>aq61subfa20_limiter_pops</LimiterPopsUpgraded>
+   <Unk54 value="200" />
+   <Unk55 value="400" />
+   <Unk56 value="500" />
+   <Unk57 value="500" />
+   <Unk58 value="1" />
+   <Unk59 value="0.2" />
+  </Item>
+ </Items>
+</Dat151>
